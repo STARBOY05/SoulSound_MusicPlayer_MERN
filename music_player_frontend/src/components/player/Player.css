@@ -1,0 +1,83 @@
+.player_container {
+    width: 20%;
+    min-width: 30%;
+    height: 90vh;
+    padding: 1rem;
+    border: 10px solid rgb(141, 141, 141);
+    color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.player_container>* {
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 2.5vw;
+    color: gold;
+}
+
+.title {
+    font-size: 1.3vw;
+}
+
+.songImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.songImage img {
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.navigation_wrapper {
+    min-width: 100%;
+    background-color: rgba(119, 119, 119, 0.781);
+    height: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.seek_bar {
+    width: 0;
+    height: 100%;
+    background-color: gold;
+    border-radius: 30px;
+}
+
+.seek_bar:hover {
+    background-color: red;
+}
+
+.controls {
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.btn_action {
+    font-size: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.btn_action:hover {
+    color: white;
+}
+
+.pp {
+    font-size: 4.5vw;
+}
