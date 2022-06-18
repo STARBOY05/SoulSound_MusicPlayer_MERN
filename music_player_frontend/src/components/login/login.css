@@ -74,39 +74,94 @@
 }
 
 @media screen and (max-width: 480px) {
+    #title {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
     #box {
         width: 90%;
-        height: 400px;
-        padding: 15px;
-        font-size: 14px;
+        height: 55%;
+        padding: 10px;
+    }
+
+    .block label {
+        font-size: 1.2rem;
+    }
+
+    .block input {
+        padding: 10px 15px;
+        width: 55%;
+        font-size: 0.9rem;
+    }
+
+    .submit-btn input {
+        width: 30%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1.2rem;
     }
 }
 
-.submit-btn input {
-    width: 100px;
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 16px;
-}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    #title {
+        text-align: center;
+        font-size: 2.5rem;
+    }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
     #box {
         width: 80%;
-        height: 400px;
+        min-height: 60%;
         padding: 20px;
-        font-size: 18px;
+    }
+
+    .block label {
+        font-size: 1.5rem;
+    }
+
+    .block input {
+        padding: 10px 15px;
+        width: 55%;
+        font-size: 1.2rem;
+    }
+
+    .submit-btn input {
+        width: 30%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1.8rem;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+    #title {
+        text-align: center;
+        font-size: 2rem;
+    }
+
     #box {
-        width: 90%;
-        height: 420px;
+        width: 50%;
+        min-height: 50%;
         padding: 20px;
-        font-size: 20px;
+    }
+
+    .block label {
+        font-size: 1.5rem;
+    }
+
+    .block input {
+        padding: 10px 15px;
+        width: 55%;
     }
 
     .block input::placeholder {
-        font-size: 20px;
+        font-size: 1.2rem;
+    }
+
+    .submit-btn input {
+        width: 30%;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: 1.5rem;
     }
 }
