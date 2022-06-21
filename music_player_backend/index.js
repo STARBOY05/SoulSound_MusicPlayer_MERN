@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
 
-mongoose.connect('mongodb://localhost:27017/mymusicplayerdb', {
+mongoose.connect("mongodb+srv://abc123:mongodb%40050502@cluster0.d6jtu.mongodb.net/mymusicplayerdb", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, (err) => {
